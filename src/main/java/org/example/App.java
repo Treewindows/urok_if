@@ -48,7 +48,7 @@ public class App {
             System.out.println("Четверть 2\n");
         } else if (a > 0 && b < 0) {
             System.out.println("Четверть 3\n");
-        } else if (a < 0 && b < 0) {
+        } else {
             System.out.println("Четверть 4\n");
         }
     }
