@@ -43,13 +43,13 @@ public class App {
      */
     private static void quarter(Double a, Double b) {
         if (a > 0 && b > 0) {
-            System.out.println("Четверть 1");
+            System.out.println("Точка находится в четверти №1");
         } else if (a < 0 && b > 0) {
-            System.out.println("Четверть 2");
+            System.out.println("Точка находится в четверти №2");
         } else if (a > 0 && b < 0) {
-            System.out.println("Четверть 3");
+            System.out.println("Точка находится в четверти №3");
         } else {
-            System.out.println("Четверть 4");
+            System.out.println("Точка находится в четверти №4");
         }
     }
     /**
